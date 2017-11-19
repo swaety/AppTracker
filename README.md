@@ -1,3 +1,32 @@
-##AppTrack
+**AppTrack**
 
-<p class="c0 c3"><span class="c1"></span></p><p class="c0 c3"><span class="c1"></span></p><p class="c0"><span class="c1">Application mobile cod&eacute; avec Xamarin.</span></p><p class="c0 c3"><span class="c1"></span></p><p class="c0 c3"><span class="c1"></span></p><p class="c0"><span class="c1">Que voulons nous faire ? Proposez l&rsquo;application ad&eacute;quate en fonction du lieu et du moment.</span></p><p class="c0 c3"><span class="c1"></span></p><p class="c0 c3"><span class="c1"></span></p><p class="c0"><span class="c1">De ce fait, il faut:</span></p><ul class="c4 lst-kix_jkph7roruq5g-0 start"><li class="c0 c5"><span class="c1">tracking du GPS</span></li><li class="c0 c5"><span class="c1">tracking des applications</span></li></ul><ul class="c4 lst-kix_jkph7roruq5g-1 start"><li class="c0 c2"><span class="c1">ouverture (date et heure)</span></li><li class="c0 c2"><span class="c1">temps d&rsquo;utilisation</span></li></ul><p class="c0 c3"><span class="c1"></span></p><p class="c0 c3"><span class="c1"></span></p><p class="c0"><span class="c1">On peut se poser la question de la pertinence des donn&eacute;es que nous prenons ?</span></p><p class="c0 c3"><span class="c1"></span></p><p class="c0 c3"><span class="c1"></span></p><p class="c0"><span class="c1">Il est possible de prendre en compte la vitesse afin d&#39;affiner le choix de l&rsquo;application &agrave; proposer.</span></p>
+Tracker d’application en fonction de notre activité
+
+## **Groupe :**
+
+* BOUDAB Jonathan, [jonathan.boudab@etu.unice.fr](mailto:jonathan.boudab@etu.unice.fr), IAM
+
+* CHALTE Thomas,  [thomas.chalte@etu.unice.fr](mailto:thomas.chalte@etu.unice.fr), IAM
+
+### **Scénarios d’utilisation:**
+
+But de l’application:
+
+Proposer une application adéquate en fonction du lieu de l’utilisateur d’un smartphone.
+
+Sprint 1:
+
+Faire une application et pouvoir naviguer dedans
+
+Utiliser un bouton pour ouvrir une application installé sur le Smartphone
+
+Sprint 2:
+
+Tracker les applications ouvertes.
+
+Créer un serveur permettant de sauvegarder les données et surtout d’y avoir accès par la suite.
+
+Sprint 3:
+
+Tracker le GPS et l'heure et enregistrer dans une BD
+
