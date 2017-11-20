@@ -15,7 +15,7 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button BackgroundColor="Blue" Text="{Binding app1}" Grid.Row="0" Grid.Column="0" />
+            <Button BackgroundColor="Blue" TextColor="Black" Text="{{x:Static local:MainPage.APP1NAME}}" Grid.Row="0" Grid.Column="0" />
             <Button BackgroundColor="Red" Text="{Binding app2}" Grid.Row="0" Grid.Column="1" />
             <Button BackgroundColor="Purple" Text="{Binding app3}" Grid.Row="1" Grid.Column="0" />
             <Button BackgroundColor="Green" Text="{Binding app4}" Grid.Row="1" Grid.Column="1" />
