@@ -13,7 +13,7 @@ namespace AppTracker
 		public MainPage()
 		{
             var apps = Android.App.Application.Context.PackageManager.GetInstalledApplications(PackageInfoFlags.MatchAll);
-            var app1 = apps[0].PackageName.Split(".");
+            var app1 = apps[0].PackageName;
             var app2 = apps[1].PackageName;
             var app3 = apps[2].PackageName;
             var app4 = apps[3].PackageName;
