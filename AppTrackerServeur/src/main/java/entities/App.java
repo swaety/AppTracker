@@ -21,6 +21,13 @@ public class App {
 
     public App() { ide = idGene++; }
 
+    public App(String nom, String horaire, String date){
+        this.nom=nom;
+        this.horaire=horaire;
+        this.date=date;
+        ide = idGene++;
+    }
+
     public static long getIdGene() {
         return idGene;
     }

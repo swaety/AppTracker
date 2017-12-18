@@ -1,0 +1,7 @@
+{"Current session : ": [{
+    "date": "17/12/2017",
+    "horaire": "10:45",
+    "ide": 0,
+    "nom": "Calendar",
+    "idGene": 1
+}]}

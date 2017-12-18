@@ -8,8 +8,6 @@ namespace AppTracker
 {
     public class Class1
     {
-        public static List<ResolveInfo> MYAPP { get{ return MYAPP; } set{ } }
-
         public String APP1 { get { return APP1; } set { } }
         public String APP2 { get { return APP2; } set { } }
         public String APP3 { get { return APP3; } set { } }
@@ -42,20 +40,62 @@ namespace AppTracker
         {
             myapplaunch();
         }
+
         public void myapplaunch()
         {
 
             //var apps = Android.App.Application.Context.PackageManager.GetInstalledApplications(PackageInfoFlags.MatchAll);
-            //var apps = Android.App.Application.Context.PackageManager.GetInstalledApplications(PackageInfoFlags.Gids);
-
+            //Intent intent = new Intent(Intent.ActionMain, null);
+            //intent.AddCategory(Intent.CategoryLauncher);
+            //List<ResolveInfo> apps = Android.App.Application.Context.PackageManager.QueryIntentActivities(intent, PackageInfoFlags.MetaData);
+            var apps = Android.App.Application.Context.PackageManager.GetInstalledApplications(PackageInfoFlags.MatchAll);
+            IList<ApplicationInfo> appinf = Android.App.Application.Context.PackageManager.GetInstalledApplications(PackageInfoFlags.MatchAll);
+            appinf.GetType();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            
+            
+            for(int i=0; i<appinf.Count; i++)
+            {
+                
+                    Console.WriteLine("PackageNameDeLAPP : "+appinf[i]);
+                    //Console.WriteLine("PermissionSNameDeLAPP : " + appinf[i].);
+                
+                
+            }
+            
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
             //Intent intent = new Intent(Intent.ActionMain, null);
             //intent.AddCategory(Intent.CategoryLauncher);
             //System.Collections.Generic.IList<ApplicationInfo> apps = Android.App.Application.Context.PackageManager.QueryIntentActivities(intent, PackageManager.);
-            Intent intent = new Intent(Intent.ActionMain, null);
+            /*Intent intent = new Intent(Intent.ActionMain, null);
             intent.AddCategory(Intent.CategoryLauncher);
-            List<ResolveInfo> apps = Android.App.Application.Context.PackageManager.QueryIntentActivities(intent, PackageManager.);
+            List<ResolveInfo> apps = Android.App.Application.Context.PackageManager.QueryIntentActivities(intent, PackageManager.);*/
 
-            MYAPP = apps;
+
             APP1 = apps[1].PackageName;
             APP2 = apps[2].PackageName;
             APP3 = apps[3].PackageName;

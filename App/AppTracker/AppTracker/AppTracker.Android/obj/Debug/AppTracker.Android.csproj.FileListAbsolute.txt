@@ -50,9 +50,9 @@ C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.A
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+obj\Debug\linksrc\mscorlib.pdb
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\bin\Debug\AppTracker.Android.dll
 bin\Debug\Mono.Android.pdb
-bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb
 bin\Debug\System.pdb
 bin\Debug\System.Xml.pdb
@@ -68,7 +68,6 @@ obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
 obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
 obj\Debug\linksrc\Mono.Android.pdb
-obj\Debug\linksrc\mscorlib.pdb
 obj\Debug\linksrc\System.Core.pdb
 obj\Debug\linksrc\System.pdb
 obj\Debug\linksrc\System.Xml.pdb
