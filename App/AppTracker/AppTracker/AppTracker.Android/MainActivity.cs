@@ -21,6 +21,8 @@ namespace AppTracker.Droid
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 			LoadApplication (new AppTracker.App ());
+
+
 		}
 	}
 }

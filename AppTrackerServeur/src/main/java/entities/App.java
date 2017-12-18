@@ -17,19 +17,40 @@ public class App {
     private String nom;
     private String horaire;
     private String date;
+    private String gps;
+    private String vitesse;
     private long ide;
 
     public App() { ide = idGene++; }
 
-    public App(String nom, String horaire, String date){
+    public App(String nom, String horaire, String date, String gps, String vitesse){
         this.nom=nom;
         this.horaire=horaire;
         this.date=date;
+        this.gps=gps;
+        this.vitesse=vitesse;
         ide = idGene++;
     }
 
     public static long getIdGene() {
         return idGene;
+    }
+
+    public void setGps(String gps) {
+        this.gps = gps;
+    }
+
+    public void setVitesse(String vitesse) {
+        this.vitesse = vitesse;
+    }
+
+    public String getGps() {
+
+        return gps;
+    }
+
+    public String getVitesse() {
+        return vitesse;
     }
 
     public String getNom() {

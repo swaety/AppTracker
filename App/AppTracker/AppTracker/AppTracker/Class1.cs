@@ -40,7 +40,10 @@ namespace AppTracker
         {
             myapplaunch();
         }
-
+        /*private Boolean isSystemPackage(PackageInfo packageInfo)
+        {
+            return ((packageInfo.ApplicationInfo.Flags & ApplicationInfo.FLAG_SYSTEM) != 0);
+        }*/
         public void myapplaunch()
         {
 
@@ -64,17 +67,23 @@ namespace AppTracker
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
-            
-            
+
+
+            //PackageManager pm = Android.App.getPackageManager();
+
             for(int i=0; i<appinf.Count; i++)
             {
                 
-                    Console.WriteLine("PackageNameDeLAPP : "+appinf[i]);
-                    //Console.WriteLine("PermissionSNameDeLAPP : " + appinf[i].);
+                    
+                //if (appinf[i].Logo.ToString() != "0") {
+                    Console.WriteLine("PackageNameDeLAPP : " + appinf[i].PackageName);
+                    Console.WriteLine("PermissionSNameDeLAPP : " + appinf[i].Logo);
+               // }
+                    
                 
                 
             }
-            
+
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
