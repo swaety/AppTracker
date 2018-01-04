@@ -11,9 +11,10 @@ import java.util.ArrayList;
 
 @Path("/smartphone")
 public class SmartphoneServices {
+
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public long addApp(Smartphone smartphone) {
+    public long addSmartphone(Smartphone smartphone) {
         MockDatabase.data.addSmartphone(smartphone);
         return smartphone.getUuid();
     }

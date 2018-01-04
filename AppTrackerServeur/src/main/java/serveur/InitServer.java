@@ -29,6 +29,7 @@ public class InitServer {
         MockDatabase.data.addSmartphone(smartphone0);
 
         JSONData.saveJSON(MockDatabase.data.getAppsList(), app);
+        JSONData.saveJSON(MockDatabase.data.getSmartphonesList(), smartphone);
     }
 }
 

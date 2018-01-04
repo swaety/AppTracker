@@ -50,6 +50,12 @@ C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.A
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\AppTracker.Android.csprojResolveAssemblyReference.cache
+E:\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\AppTracker.Android.dll
+E:\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\AppTracker.Android.pdb
+C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\bin\Debug\Plugin.CurrentActivity.dll
+C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\bin\Debug\Plugin.CurrentActivity.xml
+C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Plugin.DeviceInfo.dll.mdb
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\bin\Debug\AppTracker.Android.dll
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb

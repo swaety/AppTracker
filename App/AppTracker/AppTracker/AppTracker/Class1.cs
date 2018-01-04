@@ -40,106 +40,52 @@ namespace AppTracker
         {
             myapplaunch();
         }
-        /*private Boolean isSystemPackage(PackageInfo packageInfo)
+        public static IList<ApplicationInfo> getAllInstalledApplications()
         {
-            return ((packageInfo.ApplicationInfo.Flags & ApplicationInfo.FLAG_SYSTEM) != 0);
-        }*/
+            IList<ApplicationInfo> installedApps = Android.App.Application.Context.PackageManager.GetInstalledApplications(PackageInfoFlags.MatchAll);
+            IList<ApplicationInfo> launchableInstalledApps = new List<ApplicationInfo>();
+            for (int i = 0; i < installedApps.Count; i++)
+            {
+                if ((Android.App.Application.Context.PackageManager.GetLaunchIntentForPackage(installedApps[i].PackageName) != null) && (!installedApps[i].PackageName.Contains("AppTracker")))
+                {
+                    launchableInstalledApps.Add(installedApps[i]);
+                }
+            }
+            return launchableInstalledApps;
+        }
         public void myapplaunch()
         {
 
-            //var apps = Android.App.Application.Context.PackageManager.GetInstalledApplications(PackageInfoFlags.MatchAll);
-            //Intent intent = new Intent(Intent.ActionMain, null);
-            //intent.AddCategory(Intent.CategoryLauncher);
-            //List<ResolveInfo> apps = Android.App.Application.Context.PackageManager.QueryIntentActivities(intent, PackageInfoFlags.MetaData);
-            var apps = Android.App.Application.Context.PackageManager.GetInstalledApplications(PackageInfoFlags.MatchAll);
-            IList<ApplicationInfo> appinf = Android.App.Application.Context.PackageManager.GetInstalledApplications(PackageInfoFlags.MatchAll);
-            appinf.GetType();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            IList<ApplicationInfo> apps = getAllInstalledApplications();
 
+            APP1 = apps[0].PackageName;
+            APP2 = apps[1].PackageName;
+            APP3 = apps[2].PackageName;
+            APP4 = apps[3].PackageName;
+            APP5 = apps[4].PackageName;
+            APP6 = apps[5].PackageName;
 
-            //PackageManager pm = Android.App.getPackageManager();
+            num1 = apps[0].PackageName;
+            num2 = apps[1].PackageName;
+            num3 = apps[2].PackageName;
+            num4 = apps[3].PackageName;
+            num5 = apps[4].PackageName;
+            num6 = apps[5].PackageName;
 
-            for(int i=0; i<appinf.Count; i++)
-            {
-                
-                    
-                //if (appinf[i].Logo.ToString() != "0") {
-                    Console.WriteLine("PackageNameDeLAPP : " + appinf[i].PackageName);
-                    Console.WriteLine("PermissionSNameDeLAPP : " + appinf[i].Logo);
-               // }
-                    
-                
-                
-            }
+            var app1 = apps[0].PackageName.Split('.').Length - 1;
+            var app2 = apps[1].PackageName.Split('.').Length - 1;
+            var app3 = apps[2].PackageName.Split('.').Length - 1;
+            var app4 = apps[3].PackageName.Split('.').Length - 1;
+            var app5 = apps[4].PackageName.Split('.').Length - 1;
+            var app6 = apps[5].PackageName.Split('.').Length - 1;
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            //Intent intent = new Intent(Intent.ActionMain, null);
-            //intent.AddCategory(Intent.CategoryLauncher);
-            //System.Collections.Generic.IList<ApplicationInfo> apps = Android.App.Application.Context.PackageManager.QueryIntentActivities(intent, PackageManager.);
-            /*Intent intent = new Intent(Intent.ActionMain, null);
-            intent.AddCategory(Intent.CategoryLauncher);
-            List<ResolveInfo> apps = Android.App.Application.Context.PackageManager.QueryIntentActivities(intent, PackageManager.);*/
+            APP1NAME = apps[0].PackageName.Split('.')[app1];
+            APP2NAME = apps[1].PackageName.Split('.')[app2];
+            APP3NAME = apps[2].PackageName.Split('.')[app3];
+            APP4NAME = apps[3].PackageName.Split('.')[app4];
+            APP5NAME = apps[4].PackageName.Split('.')[app5];
+            APP6NAME = apps[5].PackageName.Split('.')[app6];
 
-
-            APP1 = apps[1].PackageName;
-            APP2 = apps[2].PackageName;
-            APP3 = apps[3].PackageName;
-            APP4 = apps[4].PackageName;
-            APP5 = apps[5].PackageName;
-            APP6 = apps[0].PackageName;
-
-            num1 = apps[1].PackageName;
-            num2 = apps[2].PackageName;
-            num3 = apps[3].PackageName;
-            num4 = apps[4].PackageName;
-            num5 = apps[5].PackageName;
-            num6 = apps[0].PackageName;
-
-            var app1 = apps[1].PackageName.Split('.').Length - 1;
-            var app2 = apps[2].PackageName.Split('.').Length - 1;
-            var app3 = apps[3].PackageName.Split('.').Length - 1;
-            var app4 = apps[4].PackageName.Split('.').Length - 1;
-            var app5 = apps[5].PackageName.Split('.').Length - 1;
-            var app6 = apps[0].PackageName.Split('.').Length - 1;
-
-            APP1NAME = apps[1].PackageName.Split('.')[app1];
-            APP2NAME = apps[2].PackageName.Split('.')[app2];
-            APP3NAME = apps[3].PackageName.Split('.')[app3];
-            APP4NAME = apps[4].PackageName.Split('.')[app4];
-            APP5NAME = apps[5].PackageName.Split('.')[app5];
-            APP6NAME = apps[0].PackageName.Split('.')[app6];
-
-            /*APP1ICON = apps[6].LoadLabel(Android.App.Application.Context.PackageManager);
-            APP2ICON = apps[1].LoadLabel(Android.App.Application.Context.PackageManager);
-            APP3ICON = apps[2].LoadLabel(Android.App.Application.Context.PackageManager);
-            APP4ICON = apps[3].LoadLabel(Android.App.Application.Context.PackageManager);
-            APP5ICON = apps[4].LoadLabel(Android.App.Application.Context.PackageManager);
-            APP6ICON = apps[5].LoadLabel(Android.App.Application.Context.PackageManager);
-*/
         }
     }
 }

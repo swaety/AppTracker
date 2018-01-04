@@ -2,6 +2,10 @@ AppTracker.Droid.MainActivity, AppTracker.Android;md56759e5e8acbaa7b9ffe21788dda
 AppTracker.Droid.MainActivity, AppTracker.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56759e5e8acbaa7b9ffe21788dda36112.MainActivity
 AppTracker.Droid.MainActivity;md56759e5e8acbaa7b9ffe21788dda36112.MainActivity
 apptracker.droid.MainActivity;md56759e5e8acbaa7b9ffe21788dda36112.MainActivity
+AppTracker.Droid.MainApplication, AppTracker.Android;md56759e5e8acbaa7b9ffe21788dda36112.MainApplication
+AppTracker.Droid.MainApplication, AppTracker.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56759e5e8acbaa7b9ffe21788dda36112.MainApplication
+AppTracker.Droid.MainApplication;md56759e5e8acbaa7b9ffe21788dda36112.MainApplication
+apptracker.droid.MainApplication;md56759e5e8acbaa7b9ffe21788dda36112.MainApplication
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor

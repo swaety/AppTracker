@@ -1,7 +1,12 @@
 package entities;
 
+import javax.persistence.Entity;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 
+
+@XmlRootElement
+@Entity
 public class Smartphone {
 
     private static long idGeneSmart = 0;

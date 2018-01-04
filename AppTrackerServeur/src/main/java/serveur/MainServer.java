@@ -4,6 +4,7 @@ import com.sun.net.httpserver.HttpServer;
 import org.glassfish.jersey.jdkhttp.JdkHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
 import services.AppServices;
+import services.SmartphoneServices;
 
 import javax.ws.rs.core.UriBuilder;
 import java.net.URI;
@@ -15,6 +16,7 @@ public class MainServer {
     public static void main(String[] args) {
         URI baseUri = UriBuilder.fromUri("http://localhost/").port(8080).build();
         ResourceConfig config = new ResourceConfig(AppServices.class);
+        config.register(SmartphoneServices.class);
         config.register(CORSFilter.class);
         config.register(CharsetResponseFilter.class);
         HttpServer server = JdkHttpServerFactory.createHttpServer(baseUri, config);

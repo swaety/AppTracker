@@ -3,6 +3,7 @@ C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.A
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\mscorlib.dll
+C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\System.dll
 C:\Users\Jonathan\Dropbox\SI5\ELIM\Projet\App\AppTracker\AppTracker\AppTracker.Android\obj\Debug\android\assets\System.Runtime.dll
