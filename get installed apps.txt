@@ -1,1 +1,0 @@
-https://stackoverflow.com/questions/45346178/xamarin-android-get-installed-app-list-with-icons
